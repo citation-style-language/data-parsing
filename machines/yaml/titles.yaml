@@ -1,0 +1,15 @@
+title: Title String Parsing Examples for CSL Input
+examples:
+- description: Title with Two Subtitles
+  input: 'Finis Coronat Opus: A Curious Reciprocity; Shelley’s “When the Lamp Is Shattered”'
+  output:
+    main: 'Finis Coronat Opus'
+    sub:
+    - A Curious Reciprocity
+    - Shelley’s “When the Lamp Is Shattered”
+- description: Title and Subtitle, but Question Mark Delimeter
+  input: Whose Music? A Sociology of Musical Language
+  output:
+    main: Whose Music?
+    sub:
+    - A Sociology of Musical Language

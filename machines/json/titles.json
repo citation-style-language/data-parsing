@@ -3,12 +3,12 @@
   "examples": [
     {
       "description": "Title with Two Subtitles",
-      "input": "Finis Coronat Opus: A Curious Reciprocity; Shelley\u2019s \u201cWhen the Lamp Is Shattered\u201d",
+      "input": "Finis Coronat Opus: A Curious Reciprocity; Shelley’s “When the Lamp Is Shattered”",
       "output": {
         "main": "Finis Coronat Opus",
         "sub": [
           "A Curious Reciprocity",
-          "Shelley\u2019s \u201cWhen the Lamp Is Shattered\u201d"
+          "Shelley’s “When the Lamp Is Shattered”"
         ]
       }
     },

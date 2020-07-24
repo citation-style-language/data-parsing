@@ -1,0 +1,26 @@
+{
+  "title": "Title String Parsing Examples for CSL Input",
+  "examples": [
+    {
+      "description": "Title with Two Subtitles",
+      "input": "Finis Coronat Opus: A Curious Reciprocity; Shelley\u2019s \u201cWhen the Lamp Is Shattered\u201d",
+      "output": {
+        "main": "Finis Coronat Opus",
+        "sub": [
+          "A Curious Reciprocity",
+          "Shelley\u2019s \u201cWhen the Lamp Is Shattered\u201d"
+        ]
+      }
+    },
+    {
+      "description": "Title and Subtitle, but Question Mark Delimeter",
+      "input": "Whose Music? A Sociology of Musical Language",
+      "output": {
+        "main": "Whose Music?",
+        "sub": [
+          "A Sociology of Musical Language"
+        ]
+      }
+    }
+  ]
+}

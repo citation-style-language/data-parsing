@@ -1,0 +1,39 @@
+{
+  "title": "String Parsing Examples for CSL Input Data",
+  "$id": "https://citation-style-language.github.io/data-parsing/json/string-parse.json",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "description",
+          "input",
+          "output"
+        ],
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "input": {
+            "type": "string"
+          },
+          "output": {
+            "type": [
+              "string",
+              "object",
+              "array"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

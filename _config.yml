@@ -1,3 +1,4 @@
 title: CSL Data Parsing Tips
 description: Helping Developers Parse Bibliographic String Data to CSL Input JSON
 theme: jekyll-theme-cayman
+encoding: UTF-8

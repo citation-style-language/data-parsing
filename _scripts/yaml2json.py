@@ -15,5 +15,5 @@ for yfile in yfiles:
     ofn = Path('machines/json/' + ofns + '.json')
     yaml = ruamel.yaml.YAML(typ='safe')
     data = yaml.load(inf)
-    with open(ofn, "w") as write_file:
+    with open(ofn, "w", encoding='utf8') as write_file:
         json.dump(data, write_file, indent=2)
